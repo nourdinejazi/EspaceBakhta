@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.diagonal::after{
+    content  : '';
+    background-color:white;
+    position : absolute;
+    inset: 0;
+    transform: skewY(-3deg);
+    z-index: -1;
+}
+
+
+
+.gallery  div { 
+    width : 100%;
+
+}
+.gallery img{
+    width : 100%;
+}
