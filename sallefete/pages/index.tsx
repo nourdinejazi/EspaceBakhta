@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import { Inter } from 'next/font/google'
 import Link from 'next/link';
 import Head from 'next/head'
 import Nav from '@/components/Nav'
@@ -20,7 +19,7 @@ export default function Home() {
           <div className=" flex justify-center  items-center  h-screen bg-[url('/images/mpic.jpg')]   bg-center bg-cover">
             <div className=" flex flex-col gap-5 sm:w-4/5  lg:w-1/3  h-1/4 sm:h-auto bg-white rounded-2xl  ">
                 <div className='text-xl text-center  font-quick mt-8'>Bienvenue à</div>
-                <div className=' flex justify-center'><div><img className='w-52 ' src="/images/espaceb.png" alt="" /></div></div>
+                <div className=' flex justify-center'><div><Image className='w-52 ' src="/images/espaceb.png" width={208} height={100} alt="" /></div></div>
                 <div className="px-8 text-sm text-center pb-4 ">
                   <p>Equipé de tout ce dont vous avez besoin pour organiser un événement réussi.</p>
                 </div>
@@ -43,7 +42,7 @@ export default function Home() {
         <div className=' flex flex-col items-center w-full h-screen   order-5'>
           <div className="  h-full w-full	bg-[url('/images/contact.jpg')] bg-center bg-cover flex  justify-center items-center	">
                 <div className="bg-white w-2/4 sm:flex sm:flex-col sm:items-center  sm:text-sm sm:w-11/12 h-auto flex flex-col items-center rounded-2xl pb-8 ">
-                  <div className='py-4'><img className='sm:w-28 lg:w-40' src="/images/logo-no-background.png" alt="" /></div>
+                  <div className='py-4'><Image className='sm:w-28 lg:w-40' src="/images/logo-no-background.png" width={1000} height={1000}  alt="" /></div>
                   <div className="flex  sm:flex-col sm:items-center lg:justify-around px-4">
                       <div className=" lg:w-2/4 sm:w-full  px-2 font-quick">
                         <div className='  sm:text-justify '>
@@ -73,8 +72,8 @@ export default function Home() {
             </section>
         </div>
         <div className="flex sm:flex-col lg:justify-center gap-1  w-screen order-3 ">
-              <img src="/images/img20.jpeg" className='lg:w-2/4' alt="" />
-              <img src="/images/img7.jpeg" className='lg:w-2/4' alt="" />
+              <Image src="/images/img20.jpeg" className='lg:w-2/4' width={1000} height={1000} alt="" />
+              <Image src="/images/img7.jpeg" className='lg:w-2/4'width={1000} height={1000}  alt="" />
             </div>
       </main>
       <Footer></Footer>

@@ -2,6 +2,7 @@ import React from 'react'
 import Nav from '@/components/Nav'
 import Footer from '@/components/Footer'
 import Head from 'next/head'
+import Image from 'next/image'
 const offres = () => {
   return (
     <div>
@@ -12,7 +13,7 @@ const offres = () => {
         <div className='flex flex-col w-full font-quick    items-center mb-32'>
             <div className='flex  flex-col  py-16 gap-5  justify-center items-center '>
                 <div className='font-gor text-2xl  font-semibold ' >Nos Offres</div>
-                <img src="/images/espaceb.png" className='lg:w-96 sm:w-72' alt="" />
+                <Image src="/images/espaceb.png" className='lg:w-96 sm:w-72' width={1000} height={1000}  alt="" />
             </div>
             <div className=' w-3/4 flex  flex-col gap-16 ' 	  >
                 <p>

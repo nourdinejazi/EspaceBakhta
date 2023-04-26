@@ -2,6 +2,7 @@ import React from 'react'
 import Nav from '@/components/Nav'
 import Footer from '@/components/Footer'
 import Head from 'next/head'
+import Image from 'next/image'
 const contact = () => {
   return (
     <div>
@@ -12,7 +13,7 @@ const contact = () => {
         <div>
             <div className='flex  flex-col  py-16 gap-5  justify-center items-center '>
                 <div className='font-gor text-2xl  font-semibold ' >Contact</div>
-                <img src="/images/espaceb.png" className='lg:w-96 sm:w-72' alt="" />
+                <Image src="/images/espaceb.png" className='lg:w-96 sm:w-72' width={1000} height={1000}  alt="" />
             </div>
         </div>  
         <div className="lg:grid lg:grid-cols-2 lg:mx-16 sm:flex sm:flex-col sm:order2 sm:gap-5 mb-32 ">
@@ -21,10 +22,10 @@ const contact = () => {
             <p className=' lg:pb-4'>Nous sommes ravis de vous offrir notre espace de fête pour rendre votre événement spécial et mémorable. Notre équipe dévouée est là pour vous aider à organiser votre fête en fonction de vos besoins et de vos préférences. Que vous planifiez un anniversaire, une réunion de famille ou une fête d'entreprise, nous sommes là pour vous aider à faire de votre événement un succès. N'hésitez pas à nous contacter sur <span className='underline text-pink-400'>Tél 23 737 915</span> pour plus d'informations sur nos services et pour réserver notre espace pour votre prochaine fête. Nous avons hâte de vous aider à créer des souvenirs inoubliables!</p>
             </div>
             <div className="lg:flex items-end sm:order1">
-                <img src="/images/img5.jpeg" className='min-w-full min-h-full' alt="" />
+                <Image src="/images/img5.jpeg" width={1000} height={1000}  className='min-w-full min-h-full' alt="" />
             </div>
             <div className="lg:flex items-start justify-end sm:order-4">
-                <img src="/images/img9.jpeg" className='min-w-full min-h-full	 ' alt="" />
+                <Image src="/images/img9.jpeg" className='min-w-full min-h-full	 ' width={1000} height={1000} alt="" />
             </div>
             <div className="sm:order-3 sm:mx-8">
                 <div className=" font-quick lg:flex lg:flex-col lg:justify-center h-full items-start lg:pr-32 lg:pl-8 ">

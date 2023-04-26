@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image';
 import { RiFacebookFill,RiInstagramLine } from "react-icons/ri";
 const Footer = () => {
   return (
@@ -6,7 +7,7 @@ const Footer = () => {
         <div className="   " >
           <div className='flex  flex-col justify-center items-center gap-2'>
               <div className=' flex flex-col items-center'>
-                <img src="\images\espaceb.png" className='w-44 opacity-70 '  alt="" />
+                <Image src="/images/espaceb.png" className='w-44 opacity-70 ' width={1000} height={1000}   alt="" />
                 215 Justice Ridge Rd., Candler, NC 28715
                 (+216) 23 737 915  •   espace.bakhta.2022@gmail.com
                 Privacy Policy

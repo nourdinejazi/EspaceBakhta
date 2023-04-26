@@ -2,7 +2,7 @@ import Link from 'next/link';
 import React, { useState } from 'react'
 import { IoMdClose, } from "react-icons/io";
 import { IoBook,IoLocationSharp,IoCheckmarkSharp ,IoCall} from "react-icons/io5";
-
+import Image from 'next/image';
 const Nav = () => {
 
   const [active,setActive]=useState(false)
@@ -16,11 +16,11 @@ const Nav = () => {
             <ul className='font-semibold text-md flex items-center gap-20 sm:hidden'>
                     <li><Link href='/contact'>Contact</Link></li>
                     <li><Link href='/adresse'>Adresse</Link></li>
-                    <li className='sm:hidden'><Link href="/"><img className='w-40' src="/images/logo-no-background.png" alt="" /></Link></li>
+                    <li className='sm:hidden'><Link href="/"><Image className='w-40' src="/images/logo-no-background.png" width={1000} height={1000}  alt="" /></Link></li>
                     <li ><Link href='/offres'>Nos Offres</Link></li>
                     <li><Link href='/catalogue'>Catalogue</Link></li>
                 </ul>
-            <div className="lg:hidden"><Link href="/"><img className='w-28' src="/images/logo-no-background.png" alt="" /></Link></div>
+            <div className="lg:hidden"><Link href="/"><Image className='w-28'  src="/images/logo-no-background.png" width={1000} height={1000}  alt="" /></Link></div>
             <button className='font-semibold text-xl lg:hidden' onClick={handleActive} >Menu</button>
         </div>
         <div className={`fixed  top-0 	  w-full h-full bg-white text-pink-400 lg:hidden ${active ? 'left-0 transition-all duration-1000 ' : 'left-[-100%] transition-all duration-1000 ' }  `}>
