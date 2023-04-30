@@ -2,6 +2,7 @@ import Link from 'next/link';
 import React, { useState } from 'react'
 import { IoMdClose, } from "react-icons/io";
 import { IoBook,IoLocationSharp,IoCheckmarkSharp ,IoCall} from "react-icons/io5";
+import { HiHome } from "react-icons/hi";
 import Image from 'next/image';
 const Nav = () => {
 
@@ -16,23 +17,26 @@ const Nav = () => {
             <ul className='font-semibold text-md flex items-center gap-20 sm:hidden'>
                     <li><Link href='/contact'>Contact</Link></li>
                     <li><Link href='/adresse'>Adresse</Link></li>
-                    <li className='sm:hidden'><Link href="/"><Image className='w-40' src="/images/logo-no-background.png" width={1000} height={1000}  alt="" /></Link></li>
+                    <li className='sm:hidden'><Link href="/"><Image className='w-52' src="/images/original_log.jpg" width={1000} height={1000}  alt="" /></Link></li>
                     <li ><Link href='/offres'>Nos Offres</Link></li>
                     <li><Link href='/catalogue'>Catalogue</Link></li>
                 </ul>
-            <div className="lg:hidden"><Link href="/"><Image className='w-28'  src="/images/logo-no-background.png" width={1000} height={1000}  alt="" /></Link></div>
+            <div className="lg:hidden"><Link href="/"><Image className='w-36'  src="/images/original_log.jpg" width={1000} height={1000}  alt="" /></Link></div>
             <button className='font-semibold text-xl lg:hidden' onClick={handleActive} >Menu</button>
         </div>
-        <div className={`fixed  top-0 	  w-full h-full bg-white text-pink-400 lg:hidden ${active ? 'left-0 transition-all duration-1000 ' : 'left-[-100%] transition-all duration-1000 ' }  `}>
+        <div className={`fixed  top-0 	 w-full h-full bg-white text-yellow-600 lg:hidden ${active ? 'left-0 transition-all duration-1000 ' : 'left-[-100%] transition-all duration-1000 ' }  `}>
             <div className='flex justify-end pr-4 py-4'>
             <IoMdClose size={30} onClick={handleActive} className=''></IoMdClose>
             </div>
-            <ul className='font-semibold text-2xl flex flex-col  items-start  gap-10 pl-4 '>
+            <ul className='font-semibold text-xl flex flex-col  items-start  gap-10 pl-4 font-quick text-3xl '>
                     <div className='flex  gap-5 items-center'>
-                    <li><Link href='/contact'>Contact</Link></li><IoCall></IoCall>
+                    <li><Link href='/'>Accueil</Link></li><HiHome></HiHome>
                     </div>
                     <div className='flex  gap-5 items-center'>
                     <li><Link href='/adresse'>Adresse</Link></li><IoLocationSharp></IoLocationSharp>
+                    </div>
+                    <div className='flex  gap-5 items-center'>
+                    <li><Link href='/contact'>Contact</Link></li><IoCall></IoCall>
                     </div>
                     <div className='flex  gap-5 items-center'>
                     <li><Link href='/catalogue'>Catalogue</Link></li><IoBook></IoBook>

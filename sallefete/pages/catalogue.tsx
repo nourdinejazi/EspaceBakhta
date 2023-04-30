@@ -13,7 +13,7 @@ const catalogue = () => {
         <div>
             <div className='flex  flex-col  py-16 gap-5  justify-center items-center '>
                 <div className='font-gor text-2xl  font-semibold ' >Catalogue</div>
-                <Image src="/images/espaceb.png" width={1000} height={1000} className='lg:w-96 sm:w-72' alt="" />
+                <Image src="/images/espacebgold2.png" width={1000} height={1000} className='lg:w-96 sm:w-72' alt="" />
             </div>
         </div>   
         <div className=" mb-8   flex justify-center mb-32">
