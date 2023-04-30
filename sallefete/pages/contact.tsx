@@ -18,7 +18,7 @@ const contact = () => {
         </div>  
         <div className="lg:grid lg:grid-cols-2 lg:mx-16 sm:flex sm:flex-col sm:order2 sm:gap-5 mb-8 ">
             <div className="font-quick lg:flex lg:flex-col lg:justify-center h-full items-start lg:pr-32 lg:pl-8 sm:mx-8">
-            <p className='font-gor lg:text-4xl sm:text-3xl font-semibold lg:py-4 text-amber-900	'>Contacter-nous</p>
+            <p className='font-gor lg:text-4xl sm:text-3xl font-semibold lg:py-4 text-amber-900	'>Contactez-nous</p>
             <p className=' lg:pb-4 lg:text-justify'>Nous sommes ravis de vous offrir notre espace de fête pour rendre votre événement spécial et mémorable. Notre équipe dévouée est là pour vous aider à organiser votre fête en fonction de vos besoins et de vos préférences. Que vous planifiez un anniversaire, une réunion de famille ou une fête d'entreprise, nous sommes là pour vous aider à faire de votre événement un succès. N'hésitez pas à nous contacter sur <span className='underline text-yellow-700 '>Tél 23 737 915</span> pour plus d'informations sur nos services et pour réserver notre espace pour votre prochaine fête. Nous avons hâte de vous aider à créer des souvenirs inoubliables!</p>
             </div>
             <div className="lg:flex items-end sm:order1">
