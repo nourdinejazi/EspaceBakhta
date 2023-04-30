@@ -69,7 +69,7 @@ export default function Home() {
                         </p>
                         </div>
                         <div className="flex justify-center my-4">
-                          <button   className='font-quick sm:w-full font-semibold px-8 py-4 text-white rounded bg-yellow-700   bg-opacity-40 hover:bg-white hover:border border-yellow-400 hover:text-yellow-600  hover:opacity-40 hover:transition duration-500 flex items-center justify-center gap-2 '><div><Link href='/catalogue'>Catalogue</Link></div> <div><IoBook></IoBook></div></button>
+                        <button className='font-quick sm:w-full px-10 py-4  font-semibold text-white  bg-yellow-700  bg-opacity-40 hover:bg-white hover:border border-yellow-400  hover:text-yellow-700 hover:opacity-40 hover:transition duration-500 rounded '><Link className='flex items-center justify-center gap-2'  href='/catalogue'>Catalogue <IoBook></IoBook></Link></button>
                         </div>
                       </div>
                   </div>
