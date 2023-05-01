@@ -24,19 +24,19 @@ const catalogue = () => {
             <div className=''><Image src="/images/img16.jpeg" className=''  width={1400} height={700} alt="" /></div>
             <div className=''><Image src="/images/img18.jpeg" className=''  width={1400} height={700} alt="" /></div>
             <div className=''><Image src="/images/img19.jpeg" className=''  width={1400} height={700} alt="" /></div>
-            <div className=''><Image src="/images/img2.jpeg" className=''  width={1400} height={700} alt="" /></div>
+            <div className=''><Image src="/images/img2.jpeg" className='lg:hidden'  width={1400} height={700} alt="" /></div>
             <div className=''><Image src="/images/img20.jpeg" className=''  width={1400} height={700} alt="" /></div>
             <div className=''><Image src="/images/img21.jpeg" className=''  width={1400} height={700} alt="" /></div>
             <div className=''><Image src="/images/img22.jpeg" className=''  width={1400} height={700} alt="" /></div>
-            <div className=''><Image src="/images/img13.jpeg" className=''  width={1400} height={700} alt="" /></div>
-            <div className=''><Image src="/images/img12.jpeg" className=''  width={1400} height={700} alt="" /></div>
-            <div className=''><Image src="/images/img11.jpeg" className=''  width={1400} height={700} alt="" /></div>
+            <div className=''><Image src="/images/img13.jpeg" className='lg:hidden'  width={1400} height={700} alt="" /></div>
+            <div className=''><Image src="/images/img12.jpeg" className='lg:hidden'  width={1400} height={700} alt="" /></div>
+            <div className=''><Image src="/images/img11.jpeg" className='lg:hidden'  width={1400} height={700} alt="" /></div>
             <div className=''><Image src="/images/img17.jpeg" className=''  width={1400} height={700} alt="" /></div>
-            <div className=''><Image src="/images/img1.jpeg" className=''  width={1400} height={700} alt="" /></div>
+            <div className=''><Image src="/images/img1.jpeg" className='lg:hidden'  width={1400} height={700} alt="" /></div>
             <div className=''><Image src="/images/img10.jpeg" className=''  width={1400} height={700} alt="" /></div>
             <div className=''><Image src="/images/img9.jpeg" className=''  width={1400} height={700} alt="" /></div>
             <div className=''><Image src="/images/img8.jpeg" className=''  width={1400} height={700} alt="" /></div>
-            <div className=''><Image src="/images/img3.jpeg" className=''  width={1400} height={700} alt="" /></div>
+            <div className=''><Image src="/images/img3.jpeg" className='lg:hidden'  width={1400} height={700} alt="" /></div>
             <div className=''><Image src="/images/img6.jpeg" className=''  width={1400} height={700} alt="" /></div>
             
           </section>
