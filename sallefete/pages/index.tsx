@@ -15,7 +15,7 @@ export default function Home() {
       <div className="relative">
       <Nav></Nav>
         <div className=" flex justify-center  items-center  h-screen bg-[url('/images/mpic.jpg')]   bg-center bg-cover">
-            <div className=" flex flex-col gap-5 sm:w-4/5  lg:w-1/3  h-1/4 sm:h-auto bg-white rounded-2xl  ">
+            <div className=" flex flex-col gap-5 sm:w-4/5  lg:w-1/3 h-auto bg-white rounded-2xl  ">
                 <div className='text-xl text-center  font-quick mt-8'>Bienvenue à</div>
                 <div className=' flex justify-center'><div><Image className='w-52' src="/images/espacebgold2.png" width={1000} height={1000} alt="" /></div></div>
                 <div className="px-8 text-sm text-center pb-4 ">
@@ -24,26 +24,26 @@ export default function Home() {
             </div>
           </div>
       </div>
-        <div className="diagonal  relative  z-10  lg:h-96 bg-yellow-700  bg-opacity-20  flex flex-col gap-24  ">
-            <section className=' w-full flex  justify-center lg:gap-96 pt-32 sm:flex-col sm:pb-32 sm:items-center sm:gap-10'>
+        <div className="diagonal border border-black  relative  z-20   bg-yellow-700  bg-opacity-20  flex flex-col gap-24  ">
+            <section className=' mb-8 w-full flex  justify-center lg:gap-96 pt-32 sm:flex-col sm:pb-32 sm:items-center sm:gap-10'>
               <div className="text-4xl  text-yellow-700   font-gor opacity-60"><p>Élégance vintage</p></div>
               <div className='sm:w-7/12 lg:w-2/6	 font-quick  flex-col  '>
-                <div className='  	 '>
+                <div className=''>
                 Notre espace des fêtes est l'endroit idéal pour célébrer tous vos événements spéciaux. Avec sa décoration festive et accueillante, notre espace peut accueillir des événements de toutes tailles, des petits rassemblements intimes aux grands événements pour des centaines de personnes.Nous offrons une variété de services pour rendre votre événement inoubliable. 
                 </div>
                 <div className="mt-8">
-                  <button className='font-quick sm:w-full px-10 py-4  font-semibold text-white  bg-yellow-700   bg-opacity-40 hover:bg-white hover:border border-yellow-400  hover:text-yellow-600 hover:opacity-40 hover:transition duration-500 rounded '><Link href='/contact'>Contactez-nous</Link></button>
+                  <button className='font-quick sm:w-full px-10 py-4  font-semibold text-white  bg-yellow-700   bg-opacity-40 hover:bg-white hover:border border-yellow-400  hover:text-yellow-600 hover:opacity-40 hover:transition duration-500 rounded  '><Link href='/contact'>Contactez-nous</Link></button>
                 </div>
               </div>
             </section>
         </div>
 
-        <div className=" sm:grid sm:grid-cols-1 lg:grid lg:grid-cols-2  w-full gap-1  ">
+        <div className="  sm:grid sm:grid-cols-1 lg:grid lg:grid-cols-2  w-full gap-1  ">
               <Image src="/images/img20.jpeg" className='w-full ' width={8000} height={1000} alt="" />
               <Image src="/images/img7.jpeg" className='w-full 'width={1000} height={1000}  alt="" />
         </div>
 
-        <div className="diagonal  relative  z-10  lg:h-96 bg-yellow-700  bg-opacity-20  flex flex-col gap-24  ">
+        <div className="diagonal relative  z-10  lg:h-96 bg-yellow-700  bg-opacity-20  flex flex-col gap-24  ">
             <section className=' w-full flex  justify-center lg:gap-96 pt-32 sm:flex-col sm:pb-32 sm:items-center sm:gap-10'>
               <div className="text-4xl  text-yellow-700  font-gor opacity-60"><p>Nos Offres</p></div>
               <div className='sm:w-7/12 lg:w-2/6	 font-quick  flex-col  '>
