@@ -24,7 +24,7 @@ export default function Home() {
             </div>
           </div>
       </div>
-        <div className="diagonal border border-black  relative  z-20   bg-yellow-700  bg-opacity-20  flex flex-col gap-24  ">
+        <div className="diagonal   relative  z-20   bg-yellow-700  bg-opacity-20  flex flex-col gap-24  ">
             <section className=' mb-8 w-full flex  justify-center lg:gap-96 pt-32 sm:flex-col sm:pb-32 sm:items-center sm:gap-10'>
               <div className="text-4xl  text-yellow-700   font-gor opacity-60"><p>Élégance vintage</p></div>
               <div className='sm:w-7/12 lg:w-2/6	 font-quick  flex-col  '>
